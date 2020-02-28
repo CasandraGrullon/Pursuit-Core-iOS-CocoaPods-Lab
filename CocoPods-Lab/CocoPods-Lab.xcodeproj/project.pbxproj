@@ -16,6 +16,7 @@
 		C63C6A39240956D60008116D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C6A38240956D60008116D /* Users.swift */; };
 		C63C6A3B240957770008116D /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C6A3A240957770008116D /* UsersView.swift */; };
 		C63C6A3D2409592E0008116D /* UserAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C6A3C2409592E0008116D /* UserAPIClient.swift */; };
+		C63C6A3F24095E0F0008116D /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63C6A3E24095E0F0008116D /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C63C6A38240956D60008116D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		C63C6A3A240957770008116D /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		C63C6A3C2409592E0008116D /* UserAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIClient.swift; sourceTree = "<group>"; };
+		C63C6A3E24095E0F0008116D /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D3BDB37DAEF29D70D1B0A161 /* Pods_CocoPods_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoPods_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51901B1209194357461947F /* Pods-CocoPods-Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoPods-Lab.debug.xcconfig"; path = "Target Support Files/Pods-CocoPods-Lab/Pods-CocoPods-Lab.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +91,7 @@
 				C63C6A38240956D60008116D /* Users.swift */,
 				C63C6A3C2409592E0008116D /* UserAPIClient.swift */,
 				C63C6A2824087DE90008116D /* UsersViewController.swift */,
+				C63C6A3E24095E0F0008116D /* UserCell.swift */,
 				C63C6A3A240957770008116D /* UsersView.swift */,
 				C63C6A2D24087DEC0008116D /* Assets.xcassets */,
 				C63C6A2F24087DEC0008116D /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 				C63C6A2524087DE90008116D /* AppDelegate.swift in Sources */,
 				C63C6A3D2409592E0008116D /* UserAPIClient.swift in Sources */,
 				C63C6A2724087DE90008116D /* SceneDelegate.swift in Sources */,
+				C63C6A3F24095E0F0008116D /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
