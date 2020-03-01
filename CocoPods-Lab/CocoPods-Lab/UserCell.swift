@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import Kingfisher
 
 
 class UserCell: UICollectionViewCell {
@@ -47,7 +48,7 @@ class UserCell: UICollectionViewCell {
         addSubview(userPhoto)
         userPhoto.snp.makeConstraints { (make) in
             make.top.leading.trailing.equalTo(self).inset(8)
-            make.height.equalTo(self).multipliedBy(0.3)
+            make.height.equalTo(self).multipliedBy(0.4)
         }
     }
     private func labelConstraints() {
@@ -60,6 +61,9 @@ class UserCell: UICollectionViewCell {
     public func configureCell(user: User) {
         userNameLabel.text = "\(user.name.first) \(user.name.last)"
      
-        //import kingfisher for photos
+        guard let imageURL = URL(string: user.picture.thumbnail) else {
+            return
+        }
+        userPhoto.kf.setImage(with: imageURL)
     }
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class UsersViewController: UIViewController {
 
     private var usersView = UsersView()
@@ -73,6 +74,11 @@ extension UsersViewController: UICollectionViewDataSource {
         cell.backgroundColor = .white
         return cell
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let user = users[indexPath.row]
+        let detailVC = DetailViewController(user: user)
+        present(detailVC, animated: true)
+    }
     
 }
